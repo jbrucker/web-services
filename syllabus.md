@@ -27,7 +27,7 @@ By the end of the course, students will be able to:
 * Course Project: 30%
 * Exams: 20%
 
-## [Resources](./references.md)
+### [Resources](./references.md)
 
 
 ---
@@ -37,19 +37,11 @@ By the end of the course, students will be able to:
 * Web services vs. web applications
 * Role of APIs in software ecosystems
 * HTTP protocol and URI design
-* REST vs. SOAP
+* Consuming a web service
 
 Lab: Use curl and browser tools to inspect HTTP requests/responses
 
-### Week 2: RESTful Architecture and Design Principles
-
-* REST constraints and statelessness
-* HTTP methods and status codes
-* Resource modeling and URI structure
-
-Lab: Build a simple REST API (e.g. todo list) using Flask/Express/Spring Boot
-
-### Week 3: JSON, XML, and Data Serialization
+### Week 2: JSON, XML, and Data Serialization
 
 * Introduction to JSON and XML formats
 * Content negotiation
@@ -57,6 +49,17 @@ Lab: Build a simple REST API (e.g. todo list) using Flask/Express/Spring Boot
 * RSS and Atom standards 
 
 Lab: Create a REST API that consumes and produces JSON and XML
+
+### Week 3: RESTful Architecture and Design Principles
+
+* REST constraints and statelessness
+* HTTP methods and status codes
+* Resource modeling and URI structure
+
+Lab: Build a simple REST API (e.g. todo list) using Flask/Express/Spring Boot
+
+Assignment: Create and deploy a service that provides REST access to CRUD operations on a database. Write a desktop client to use this service.
+
 
 ### Week 4: SOAP Web Services
 
@@ -138,7 +141,7 @@ Lab: Build a minimal microservice with gateway using Docker Compose
 
 Lab: Deploy a REST API to a cloud platform with basic monitoring
 
-### Week 12-13: Optional Topics and Project Work
+### Week 12-14: Optional Topics and Project Work
 
 New material may be added that is relevant to student projects,
 and some time devoted to peer review of designs and implementations.
@@ -149,7 +152,7 @@ Optional topics may include:
 * Consuming web services in client-side web apps, e.g. AXIOS for Javascript
 * Consuming web services in mobile apps
 
-### Week 14-15: Capstone Project Presentations
+### Week 15: Capstone Project Presentations
 
 * Student final project demo and report
 * Peer reviews and evaluation
@@ -163,6 +166,4 @@ Optional topics may include:
 * Service Mesh (Istio, Linkerd)
 * Contract testing (Pact)
 * Serverless APIs, e.g. AWS Lambda and API Gateway
-
-## Optional Topics
 
